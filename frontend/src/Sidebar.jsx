@@ -11,7 +11,6 @@ function Sidebar() {
             const response = await fetch("http://localhost:8080/api/thread");
             const res = await response.json();
             const filteredData = res.map(thread => ({threadId: thread.threadId, title: thread.title}));
-            //console.log(filteredData);
             setAllThreads(filteredData);
         } catch(err) {
             console.log(err);
@@ -82,7 +81,7 @@ function Sidebar() {
                             {thread.title}
                             <i className="fa-solid fa-trash"
                                 onClick={(e) => {
-                                    e.stopPropagation(); //stop event bubbling
+                                    e.stopPropagation(); 
                                     deleteThread(thread.threadId);
                                 }}
                             ></i>

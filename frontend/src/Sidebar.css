@@ -1,12 +1,11 @@
 .sidebar {
-    /* layout – unchanged */
     height: 100vh;
     width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    /* 🎯 improved background (same family as chatWindow) */
+    
     background: linear-gradient(
         180deg,
         #141414,
@@ -15,11 +14,11 @@
 
     color: #b4b4b4;
 
-    /* subtle separation */
+   
     border-right: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-/* buttons */
+
 
 button {
     display: flex;
@@ -30,7 +29,6 @@ button {
     border-radius: 5px;
     background-color: transparent;
 
-    /* softened border */
     border: solid 0.5px rgba(255, 255, 255, 0.25);
     cursor: pointer;
 }
@@ -51,7 +49,7 @@ button span {
     font-size: 20px;
 }
 
-/* history */
+
 
 .history {
     margin: 10px;
@@ -74,13 +72,13 @@ button span {
     border-radius: 10px;
 }
 
-/* active / selected chat */
+
 .highlighted {
     background-color: rgba(255, 255, 255, 0.06);
     border-radius: 10px;
 }
 
-/* trash icon */
+
 
 .fa-trash {
     opacity: 0;
@@ -97,7 +95,7 @@ button span {
     color: #f87171 !important;
 }
 
-/* sign out / footer */
+
 
 .sign {
     padding: 10px;
