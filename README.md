@@ -21,13 +21,17 @@ I wanted a hands-on way to learn streaming responses, manage conversational stat
 2. Backend
    cd backend
    npm install
+
+https://github.com/user-attachments/assets/f8041eb7-3c92-49a2-928e-2ce0ec70ecd1
+
+
    create a `.env`:
    ```
    PORT=5000
    MONGO_URI=your_mongo_uri
    OPENAI_API_KEY=your_openai_key
    ```
-   npm run dev
+   npm start
 
 3. Frontend
    cd frontend
