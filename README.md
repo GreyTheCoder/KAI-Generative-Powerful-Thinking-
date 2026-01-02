@@ -1,5 +1,12 @@
-A personal project that connects a MERN stack app to the OpenAI API — built to learn how to stream AI responses, render Markdown/code nicely, and keep conversations around between refreshes. I built this to understand the plumbing behind chat UIs and to practice making something that feels smooth and natural.
+KAI — Generative Powerful Thinking 🤖
+KAI is a full-stack AI Chat Assistant built to bridge the gap between powerful LLMs and a custom, user-centric interface. This project was developed to master the technical "plumbing" of modern AI applications, focusing on real-time streaming, conversation persistence, and high-fidelity technical rendering. 
 
+🔗 Live Deployments
+Frontend: https://kai-generative-powerful-thinking-frontend.onrender.com
+
+Backend API: https://kai-generative-powerful-thinking-backend.onrender.com
+
+https://github.com/user-attachments/assets/f8041eb7-3c92-49a2-928e-2ce0ec70ecd1
 ## What it does
 - Chat with OpenAI models from a custom UI
 - Streams responses so the assistant appears to “type” in real time
@@ -22,7 +29,6 @@ I wanted a hands-on way to learn streaming responses, manage conversational stat
    cd backend
    npm install
 
-https://github.com/user-attachments/assets/f8041eb7-3c92-49a2-928e-2ce0ec70ecd1
 
 
    create a `.env`:
